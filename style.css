@@ -1,0 +1,44 @@
+.display_head{
+    height: 2in;
+    width: 4in;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cal_back{
+    width: 2.6in;
+    height: 5in;
+    border-radius: 20px;
+    background-color: #1c1c1c;
+}
+.button:hover{
+    background-color: #505050;
+}
+#orange{
+    background-color: #FF9500;
+    color: white;
+}
+#orange:hover{
+    background-color: #e18606;
+}
+.button{
+    cursor: pointer;
+    border-style: none;
+    background-color:#D4D4D2 ;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.row_one{
+    display: flex;
+    align-content: center;
+}
+p{
+    text-align: center;
+    font-size: 20px;
+    margin: auto;
+}
