@@ -1,15 +1,23 @@
-(function(){
-    let screen = document.querySelector('.screen');
-    let buttons = document.querySelectorAll('.button');
-    let clear = document.querySelector('.btn-clear');
-    let equal = document.querySelector('.equal');
+let display = document.getElementById('screen');
 
+let buttons = Array.from(document.getElementsByClassName("button"));
 
-    buttons.forEach(function(button){
-        button.addEventListener('click', function(e){
-            let value = e.target.dataset.num;
-            screen.value += value;
-        })
+buttons.map(button =>{
+    button.addEventListener('click', (e) => {
+        switch(e.target.innerText){
+            case 'AC':
+                display.innerText = '';
+                break;
+            case '=':
+                try{
+                    display.innerText = eval(display.innerText);
+                }catch{
+                display.innerHTML = 'Error'
+                }
+                break;
+            default:
+                display.innerText += e.target.innerText;
+            
+        }
     })
-}
-)
+})

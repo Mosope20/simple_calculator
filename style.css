@@ -1,17 +1,14 @@
-form input{
+.display{
     height: 2in;
-    width: 2.55in;
-    border-radius: 20px;
+    width: 2.6in;
+    line-height: 2in;
+    border-radius: 20px 20px 0px 0px;
     border-style: none;
     color: white;
-    background: #1c1c1c;
+    background-color: #1c1c1c;
     text-align: right;
     font-size: 40px;
     pointer-events: none;
-}
-.display_head{
-    height: 2in;
-    width: 4in;
 }
 body{
     display: flex;
@@ -20,8 +17,8 @@ body{
 }
 .cal_back{
     width: 2.6in;
-    height: 5in;
-    border-radius: 20px;
+    height: 3in;
+    border-radius: 0px 0px 20px 20px;
     background-color: #1c1c1c;
 }
 .button:hover{
