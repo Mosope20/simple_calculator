@@ -45,6 +45,22 @@ body{
     display: flex;
     align-content: center;
 }
+.row_two{
+    display: flex;
+    align-content: center;
+}
+.row_three{
+    display: flex;
+    align-content: center;
+}
+.row_four{
+    display: flex;
+    align-content: center;
+}
+.row_five{
+    display: flex;
+    align-content: center;
+}
 p{
     text-align: center;
     font-size: 20px;
