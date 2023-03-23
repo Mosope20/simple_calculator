@@ -15,6 +15,12 @@ buttons.map(button =>{
                 display.innerHTML = 'Error'
                 }
                 break;
+            case '+/-':
+                display.innerText = display.innerText *-1;
+                break;
+            //case 'x':
+            //    display.innerText *= e.target.innerText;
+            //   break;
             default:
                 display.innerText += e.target.innerText;
             
